@@ -19,6 +19,7 @@ fun Application.configureDatabases() {
         password = "1234"
         )
     val userService = UserService(database)
+    val string = ""
     routing {
         // Create user
         post("/users") {
